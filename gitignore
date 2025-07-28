@@ -1,1 +1,8 @@
+# Abaikan file data besar
+data/raw/*
+!data/raw/.gitkeep
 
+# Abaikan file sistem
+.DS_Store
+__pycache__/
+*.pyc
